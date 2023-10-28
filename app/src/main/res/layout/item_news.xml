@@ -1,16 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+
+<androidx.cardview.widget.CardView
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:layout_height="wrap_content">
 
-    <TextView
-        android:id="@+id/tvTitle"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Berita Terkini"
-        android:textSize="25dp"
-        android:padding="10dp"/>
+        android:orientation="vertical">
 
-</LinearLayout>
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Berita Terkini"
+            android:textSize="17dp"
+            android:padding="15dp"/>
+
+        <ImageView
+            android:id="@+id/ivNews"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:src="@drawable/image" />
+
+        <TextView
+        android:id="@+id/tvPublishedAt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Published on: 2023-10-27T08:07:02Z"
+        android:textSize="16dp"
+            android:layout_margin="10dp"/>
+
+        <TextView
+            android:id="@+id/Author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Author"
+            android:textSize="16dp"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/btnReadMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Baca Lebih Lanjut"
+            android:layout_gravity="center"
+            android:layout_margin="15dp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
