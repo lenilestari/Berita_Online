@@ -6,6 +6,6 @@ import retrofit2.http.GET
 
 interface ApiServices {
 
-    @GET("https://newsapi.org/v2/top-headlines?country=id&apiKey=e46a85e96bcc486389aae652641ff02e")
+    @GET("https://newsapi.org/v2/top-headlines?country=us&apiKey=e46a85e96bcc486389aae652641ff02e")
     fun getBerita() : Call<NewResponse>
 }
