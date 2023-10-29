@@ -14,7 +14,7 @@
         <ImageView
             android:id="@+id/ivNews"
             android:layout_width="0dp"
-            android:layout_height="220dp"
+            android:layout_height="110dp"
             android:layout_weight="1"
             android:src="@drawable/image" />
 
@@ -30,7 +30,7 @@
                 android:layout_height="wrap_content"
                 android:text="Berita Terkini"
                 android:textSize="17dp"
-                android:padding="15dp"/>
+                android:padding="10dp"/>
 
             <TextView
                 android:id="@+id/tvPublishedAt"
@@ -46,15 +46,15 @@
                 android:layout_height="wrap_content"
                 android:text="Author"
                 android:textSize="16dp"
-                android:gravity="center"/>
+                android:paddingLeft="10dp"/>
 
             <Button
                 android:id="@+id/btnReadMore"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Baca Lebih Lanjut"
                 android:layout_gravity="center"
-                android:layout_margin="15dp" />
+                android:layout_margin="10dp"
+                android:text="Baca Lebih Lanjut" />
         </LinearLayout>
     </LinearLayout>
 </androidx.cardview.widget.CardView>

@@ -13,7 +13,6 @@ import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.example.bankmandiri.Data.Response.ArticlesItem
-import com.example.bankmandiri.Data.Response.NewResponse
 import com.example.bankmandiri.R
 
 class NewsAdapter (private val listener: (ArticlesItem)-> Unit) : RecyclerView.Adapter<NewsAdapter.ViewHolder>() {

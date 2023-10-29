@@ -8,6 +8,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
+
         <LinearLayout
             android:id="@+id/layoutAtas"
             android:layout_width="match_parent"
@@ -15,12 +16,23 @@
             android:orientation="vertical">
 
             <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Berita Terkini"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="10dp"/>
+
+            <TextView
                 android:id="@+id/tvTitle2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Berita Terkini"
                 android:textSize="17dp"
-                android:padding="10dp" />
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="5dp"/>
 
             <ImageView
                 android:id="@+id/ivNewsAtas2"
@@ -41,7 +53,9 @@
                 android:layout_height="wrap_content"
                 android:text="Published on: 2023-10-27T08:07:02Z"
                 android:textSize="16dp"
-                android:layout_margin="10dp" />
+                android:paddingTop="5dp"
+                android:paddingLeft="10dp"
+                android:paddingBottom="5dp"/>
 
             <TextView
                 android:id="@+id/Author2"
@@ -53,7 +67,7 @@
 
             <Button
                 android:id="@+id/btnReadMore2"
-                android:layout_width="wrap_content"
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
                 android:text="Baca Lebih Lanjut"
                 android:layout_gravity="center"
